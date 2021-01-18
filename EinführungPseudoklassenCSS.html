@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+​
+   <style>
+       img{
+           width: 300px;
+           height: auto;
+       }
+       .my-image:hover {
+           width: 350px;
+           height: auto;
+           border: 2px solid lightgray;
+           border-radius: 40px;
+       }
+       a {
+           color:lightgray;
+           text-decoration: none;
+       }
+       .green-link-color-hover{
+           color: lightcoral;
+           margin: 0 20px;
+           padding: 0 10px;
+           font-family: Impact, sans-serif;
+       }
+       .green-link-color-hover:hover{
+           background-color: grey;
+           color: coral;
+           border: 3px solid coral;
+           border-radius: 15px;
+           padding: 10px;
+           font-family: Impact, sans-serif;
+       }
+       #wichtiger-link:hover{
+           color:red;
+           text-decoration: line-through;
+           background-color: green;
+           text-align: center;
+           padding: 10px;
+           border: 2px dotted yellow;
+       }
+       ul {
+           list-style-type: none;
+       }
+       ul li{
+           display: inline;
+       }
+       nav{
+           margin-top: 20px;
+           padding: 0;
+           width: 60%;
+       }
+       .li{
+           background-color: lightgoldenrodyellow;
+       }
+​
+       table, tr, th, td{
+           border: 2px solid black;
+           border-collapse: collapse;
+           text-align: center;
+       }
+       th, td {
+           padding:5px;
+       }
+       tr:nth-child(even) {
+           background-color: lightgray;
+       }
+       tr:nth-child(odd){
+           color:orange;
+           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       }
+       #id-olaf-2{
+           background-color: lightgreen;
+       }
+       tr td:first-child{
+           background-color: red;
+       }
+       caption {
+           font-size: 24px;
+           font-weight: bold;
+           text-decoration: underline;
+       }
+   </style>
+</head>
+<body class="test123" id="id234">
+​
+    <nav>
+        <ul class="test123" id="id123">
+            <li class="li">
+                <a class="green-link-color-hover forms" href="forms.html">Link zu Forms</a>
+             </li>
+            <li class="li">
+                <a class="green-link-color-hover forms" href="https://www.google.com">Link zu Google</a>
+             </li>
+            <li class="li" id="id345">
+                <a class="green-link-color-hover" href="https://www.google.com">Link zu Google</a>
+             </li> 
+        </ul>
+    </nav>
+​
+   <br>
+   <img class="my-image" src="./pictures/dci_logo.png" alt="dci-logo">
+   <br>
+   <a id="wichtiger-link" href="forms.html">Link zu Forms</a>
+   <br>
+   <br>
+   <br><br>
+   <table>
+       <caption>Personen Tabelle</caption>
+       <tr>
+           <th>ID</th>
+           <th>Vorname</th>
+           <th>Nachname</th>
+       </tr>
+       <tr>
+           <td>1</td>
+           <td colspan="2">Max Mustermann</td>
+       </tr>
+       <tr id="id-olaf-2">
+            <td>2</td>
+            <td>Olaf</td>
+            <td rowspan="2">Günther</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Olaf</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Olaf</td>
+            <td>x<sup>2</sup></td>
+        </tr>
+        <tr>
+            <td>Zahl 1</td>
+            <td>+</td>
+            <td>Zahl 2</td>
+        </tr>
+   </table>
+   <br><br><br>
+   <form action="">
+       Zahl 1
+       <input type="text">
+       Zahl 2
+       <input type="text">
+       <input type="submit" value="Berechnen">
+       <p class="Ergebnis">Ergebnis:</p>
+   </form>
+   <br><br><br>
+   <p>Wasser ist in der Chemie: H<sub>2</sub>O </p>
+   <p>In der Mathematik gibt es x<sup>2</sup> </p>
+   <p>Die Summe ist: &sum; </p>
+</body>
+</html>

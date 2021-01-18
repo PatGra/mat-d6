@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+        <style>
+        .first-div {
+            font-size: 25px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style: italic;
+            text-transform: uppercase;
+        }
+        .first-p {
+            text-decoration: underline;
+            font-size: 30px;
+            letter-spacing: 10px;
+        }
+        .btn {
+            border:2px solid blue;
+            border-radius: 15px;
+            color: crimson;
+            background-color: cadetblue;
+        }
+        .btn:hover {
+            color: cyan;
+            background-color: darkmagenta;
+            width: 90px;
+            height: 30px;
+        }
+
+       .first-ul {
+        list-style-type: none;  
+        }
+        nav ul li{
+            display: inline-block;    
+        }
+        nav ul li a{
+            text-decoration: none;
+            background-color: darksalmon;
+        }
+        a{
+        color: blueviolet
+        }
+        #hover1:hover{
+            background-color: lightslategray;
+        }
+        nav ul li:nth-child(2) a:hover{
+            background-color: darkslateblue;    
+        }
+        nav ul li:nth-child(3) a:hover{
+            background-color: darkslategrey;
+        }
+        nav ul li:nth-child(4) a:hover{
+            background-color:dimgray
+        }
+        table, tr,th,td{
+            border:2px solid black
+        }
+        table{
+            border-collapse:collapse;
+            text-align:center;
+            margin: 10px auto;
+        }
+        tr th{
+            background-color: chartreuse;
+        }
+        .first-nav{
+            margin: 20px auto;
+            width: 250px;
+        }
+
+
+   
+        </style>
+    </head>
+    <body>
+
+    <div class="first-div">
+        Hier ist das erste div
+    </div>
+    <p class="first-p">Hier ist der erste paragraph</p>
+
+    <button class="btn">Klick mich!</button>
+
+    <nav class="first-nav">
+        <ul class="first-ul">
+            <li><a id=hover1 href="">Erster</a></li>
+            <li><a href="">Zweiter</a></li>
+            <li><a href="">Dritter</a></li>
+            <li><a href="">Vierter</a></li>
+        </ul>
+    </nav>
+    
+    <table class="first-table">
+        <tr>
+            <th>Eins</th>
+            <th>Zwei</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>2.</td>
+        </tr>
+    </table>
+
+    </body>
+</html>

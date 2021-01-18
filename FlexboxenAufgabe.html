@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Flexboxen</title>
+    <style>
+        body{
+            background-color: rgb(36, 35, 35);
+        }
+        #section1{
+            display: flex;
+            justify-content: space-around
+            background-color: grey
+        }
+    .links,.rechts{
+        background-color: grey;
+        padding:0 100px;
+        
+        
+    }
+    .mitte{
+        background-color: red;
+        padding:0 100px;   
+    }
+
+    #section2{
+            display: flex;
+            justify-content: space-around
+    
+    #section3{
+        display: flex;
+        justify-content: space-around
+    }
+
+    img{
+        border: 5px solid blue;
+        align-items: center;
+        margin-top: auto;
+
+        
+    }
+
+    p{
+        background-color: blue;
+    }
+
+    </style>
+</head>
+<body>
+    <div id=section1>
+        <div flex links>
+            <div class="links S1">Ein Element</div>
+        </div>
+            <div flex mitte>
+            <div class="mitte S1">Ein Element</div>
+        </div>
+        <div flex rechts></div>
+            <div class="rechts S1">Ein Element</div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <div id=section2>
+        <div flex links>
+        </div><div class="links S2">Ein Element</div>
+        </div>
+        <div flex rechts>
+        <div class="rechts S2">Ein Element</div>
+        </div>
+    </div>
+    <br>
+    <br>
+        
+    
+    <div id=section3>
+        <div class="links S3">
+        <img src="haribo.png" alt="Haribotüte">
+        <p>Information</p>
+        </div>
+        <div class="rechts S3">Ein Element</div>
+        
+    </div>
+</body>
+</html>
