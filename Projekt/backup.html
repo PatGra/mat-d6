@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdaCodingCommunity</title>
+    <style>
+
+        #section1{
+            background-color: rgb(212, 28, 37);
+            border-radius: 15px;
+            color: white;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            text-transform: uppercase;        
+        }
+
+        .logo{
+            margin-left: 15px;
+        }
+
+        .flex1{
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+
+        .nav1 ul{
+            margin: 15px;
+            padding: 20px;
+            display: inline-block
+        }
+
+        .nav1 ul li{
+            padding:8px;
+            display: inline-block
+        }
+
+        .nav1 ul li:hover{
+            color:rgb(21, 22, 29);;
+        }
+        
+        #section2{
+            display: flex;
+        }
+        .headerbild{
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+        }
+        .flex2-item2{
+            list-style-type: none;
+            color:rgb(212, 28, 37);
+            text-align: center;
+            margin-top: -120px;
+            font-weight: bold;
+            font-size: 30px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif; 
+            text-transform: uppercase;
+        }
+        
+        #section3{
+            background-color: rgb(3, 37, 226);
+            color: white;
+            width: 100%;
+            padding: 1px;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 35px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            border-radius: 15px;
+        }
+
+        #section4{
+            background-color: rgb(212, 28, 37);
+            border-radius: 15px;
+            color: white;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            text-transform: uppercase;
+        }
+
+        .flex3{
+            display: flex;
+            
+        }
+
+        .flex3-item1{
+            flex:1; 
+        }
+
+        .flex3-item1 a {
+            display: flex;
+            flex:1;
+            justify-content: center;
+            list-style-type: none;
+            text-decoration: none;
+            color: white;
+            margin-top: 70px;
+        }
+
+        .flex3-item1 a:hover{
+            color:rgb(3, 37, 226)
+        }
+
+        .flex3-item2{
+            flex:2;
+            padding: 10px;
+            width:100%;
+        }
+
+        .Frau{
+            border-radius: 15px;
+        }
+
+        #section5{
+            background-color: rgb(3, 37, 226);
+            color: white;
+            list-style-type: none;
+            border-radius: 15px;
+        }
+
+        .nav2 ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+            margin: 15px;
+            padding: 10px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif     
+        }
+
+        ul li{
+            padding:auto;
+            text-transform: uppercase;    
+        }
+
+        .button {
+            background-color: rgb(212, 28, 37);
+            color: white;
+            border-radius: 10px;
+            text-transform: uppercase;
+        }
+
+        .button:hover {
+            color:rgb(3, 37, 226);
+        }
+        
+    </style>
+    
+</head>
+<body>
+    <header>
+        
+         <div id="section1">
+            <div class="flex1">
+                <div class="logo">Ada Coding</div>
+                <div class="flex1-navigation"> 
+                    <nav class="nav1">
+                    <ul>
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="AboutUs.html"> About Us</a></li>
+                    <li><a href="Events.html"> Events</a></li>
+                    <li><a href="Join us.html"> Join us</a></li>
+                    <li><a href="Contact.html"> Contact</a></li>
+                    </ul>
+                    </nav>
+                </div>
+            </div>   
+        </div>
+        <br>
+    </header>
+
+    <main>
+        <div id="section2">
+            <div class="flex2">
+                <div class="flex2-item1">
+                    <img class="headerbild" src="adacoding.jpg" alt="Frau mit Codes" width="200" heigth="130">
+                </div>
+                <div class="flex2-item2">    
+                    <a href="Community.html">Community for Women</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div id="section3">
+            <div class="item1"> 
+            <p>Welcome to ADA Coding</p> 
+            <p>Empowermet for women in IT</p>
+            </div>
+        </div>
+        <br>
+        
+        <div id="section4">
+            <div class="flex3">
+                
+                <div class="flex3-item1">
+                    <a href="Community.html">Community</a>
+                    <a href="Networking.html">Networking</a>
+                    <a href="Publication.html">Publication</a>
+                    <a href="Partner.html">Partner</a>
+                </div>
+                <div class="flex3-item2">
+                    <img class="Frau" src="Frau.jpg" alt="Frau am Rechnern" width="600" height="auto">
+                </div>
+            </div>
+        </div>
+      
+    </main>
+
+    <footer>
+    <div id="section5"> 
+        <nav class="nav2">
+            
+            
+                <ul>
+                <li><form>
+                    <input class="button" type="button" value="Imprint">
+                </form></li>
+                <li><form>
+                    <input class="button" type="button" value="Contact">
+                </form></li>
+                    <input class="button" type="button" value="Privacy Police">
+                </form></li>
+            </ul>
+        </nav>
+    </div>
+        
+    </footer>
+</body>
+</html>
